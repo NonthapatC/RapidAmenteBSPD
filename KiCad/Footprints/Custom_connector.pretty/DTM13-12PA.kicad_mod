@@ -313,15 +313,15 @@
 	(pad "" np_thru_hole circle
 		(at -8.89 -12.7)
 		(size 5 5)
-		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(drill 5)
+		(layers "*.Mask")
 		(uuid "5dad382c-dfc6-486d-a4d1-f46b98d7cceb")
 	)
 	(pad "" np_thru_hole circle
 		(at 8.89 -12.7)
 		(size 5 5)
-		(drill 3)
-		(layers "F&B.Cu" "*.Mask")
+		(drill 5)
+		(layers "*.Mask")
 		(uuid "2f907dce-92a2-4a72-bc0f-52982d2b71f0")
 	)
 	(pad "1" thru_hole roundrect

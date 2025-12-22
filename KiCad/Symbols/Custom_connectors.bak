@@ -25,7 +25,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector:DTM13-12PA"
+		(property "Footprint" "Custom_connector:DTM13-12PA"
 			(at 0 0 0)
 			(effects
 				(font
@@ -535,7 +535,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Test Hook:Custom_Testpad"
 			(at 0 0 0)
 			(effects
 				(font
