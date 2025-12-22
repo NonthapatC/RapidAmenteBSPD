@@ -523,7 +523,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "../Production/Fab (gerber) BSPD v4 Rev 5/",
+      "plot": "../Production/Fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "BSPD v4 Rev 5.step",
