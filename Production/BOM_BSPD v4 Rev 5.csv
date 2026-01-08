@@ -1,7 +1,7 @@
 Reference,Qty,Value,LCSC part number,Datasheet
-"C1,C2,C3,C4,C9,C10,C12,C15,C16,C17,C19",11,C0.1uF,C1711,https://www.lcsc.com/product-detail/C1711.html?s_z=n_C1711
+"C1,C2,C3,C4,C9,C10,C12,C15,C16,C17,C19,C21",12,C0.1uF,C1711,https://www.lcsc.com/product-detail/C1711.html?s_z=n_C1711
 "C5,C6,C7,C8",4,C10nF,C1710,https://www.lcsc.com/product-detail/C1710.html?s_z=n_C1710
-C11,1,C0.33uF,C73142,https://www.lcsc.com/product-detail/C73142.html?s_z=n_C73142
+"C11,C20",2,C0.33uF,C73142,https://www.lcsc.com/product-detail/C73142.html?s_z=n_C73142
 "C13,C14,C18",3,C10uF,C15850,https://www.lcsc.com/product-detail/C15850.html?s_z=n_C15850
 "D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D14,D15",14,LED,C965812,https://www.lcsc.com/product-detail/C965812.html?s_z=n_C965812
 D13,1,CRH01,C2847411,https://www.lcsc.com/product-detail/C2847411.html
@@ -16,6 +16,7 @@ R72,1,R6.8K,C114550,https://www.lcsc.com/product-detail/C114550.html?s_z=n_C1145
 "RV1,RV2,RV3,RV4,RV5,RV6,RV7,RV8,RV9,RV10,RV11,RV12",12,R_Potentiometer_Trim,C118954,https://www.lcsc.com/product-detail/C118954.html?s_z=n_C118954
 "TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP9,TP10,TP11,TP12,TP13,TP14,TP15,TP16,TP29,TP30,TP33",19,TestHook,C5199798,https://www.lcsc.com/product-detail/C5199798.html?s_z=n_C5199798
 "U1,U2,U3",3,LM339,C71036,https://www.lcsc.com/product-detail/C71036.html?s_z=n_st
+U4,1,78L08MG-AB3-R,C75495,https://www.lcsc.com/product-detail/C75495.html
 "U5,U6,U7,U8,U9,U10,U11,U12,U13,U14,U15,U16,U26,U28",14,2N7002,C65189,https://www.lcsc.com/product-detail/C65189.html
 U17,1,74HC08D,C5593,https://www.lcsc.com/product-detail/C5593.html?s_z=n_74HC08
 U18,1,74HC21D,C5617,https://www.lcsc.com/product-detail/C5617.html
