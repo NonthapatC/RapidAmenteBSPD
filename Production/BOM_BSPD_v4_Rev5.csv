@@ -3,11 +3,15 @@ Reference,Qty,Value,LCSC part number,Datasheet
 "C5,C6,C7,C8",4,C10nF,C1710,https://www.lcsc.com/product-detail/C1710.html?s_z=n_C1710
 "C11,C20",2,C0.33uF,C73142,https://www.lcsc.com/product-detail/C73142.html?s_z=n_C73142
 "C13,C14,C18",3,C10uF,C15850,https://www.lcsc.com/product-detail/C15850.html?s_z=n_C15850
-"D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D14,D15",14,LED,C965812,https://www.lcsc.com/product-detail/C965812.html?s_z=n_C965812
+"D1,D4,D7,D10",4,YLED,C965814,https://www.lcsc.com/product-detail/C965814.html
+"D2,D5,D8,D11",4,GLED,C2986041,https://www.lcsc.com/product-detail/C2986041.html
+"D3,D6,D9,D12,D14,D15",6,RLED,C965812,https://www.lcsc.com/product-detail/C965812.html?s_z=n_C965812
 D13,1,CRH01,C2847411,https://www.lcsc.com/product-detail/C2847411.html
 J1,1,DTM13-12PA,C17510017,https://www.lcsc.com/product-detail/C17510017.html?s_z=n_dtm13-12PA
 "R25,R26,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R65,R66,R67,R68,R73,R74,R78,R79,R80,R82",22,R10K,C84376,https://www.lcsc.com/product-detail/C84376.html?s_z=n_C84376
-"R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R49,R50,R51,R52,R53,R54,R55,R56,R57,R58,R59,R60,R77,R81,R83",27,R150,C17471,https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471
+"R37,R38,R39,R40,R41,R42,R43,R44,R45,R46,R47,R48,R81",13,R150,C17471,https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471
+"R49,R51,R52,R54,R55,R57,R58,R60,R77,R83",10,R200,C2933534,https://www.lcsc.com/product-detail/C2933534.html
+"R50,R53,R56,R59",4,R82,C2907287,https://www.lcsc.com/product-detail/C2907287.html
 "R61,R62,R63,R64",4,R1K,C17513,https://www.lcsc.com/product-detail/C17513.html
 R70,1,R500,C2828857,https://www.lcsc.com/product-detail/C2828857.html?s_z=n_C2828857
 R71,1,R68K,C17801,https://www.lcsc.com/product-detail/C17801.html?s_z=n_C17801

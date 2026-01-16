@@ -2902,6 +2902,254 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_3_Open"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at -2.54 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_3_Open"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 3-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Solder Jumper SPDT"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Open*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_3_Open_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.016) (xy -1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -1.016 -1.016)
+					(mid -2.0276 0)
+					(end -1.016 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -0.508 1.016)
+					(end 0.508 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 0 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.016 1.016)
+					(mid 2.0276 0)
+					(end 1.016 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.032 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_3_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LDO:ST L78M05ABDT-TR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -7364,10 +7612,22 @@
 		(uuid "0cfa2135-a7c6-4c1a-8c5b-bdc701fe889e")
 	)
 	(junction
+		(at 35.56 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e1b5f63-9b7b-4bc6-8cc6-d6afeb046fc6")
+	)
+	(junction
 		(at 158.75 273.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e5e5ce3-8b55-48a0-8296-89ca3d4ba2ff")
+	)
+	(junction
+		(at 48.26 312.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0ffa50fe-a52f-4f7a-9b08-ae685232e3cf")
 	)
 	(junction
 		(at 77.47 20.32)
@@ -7410,6 +7670,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1645adad-7cc0-4fb2-a56f-dbc26ab34341")
+	)
+	(junction
+		(at 48.26 325.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18bdb2a5-06ac-43ed-ad4f-8b6d025a91d4")
 	)
 	(junction
 		(at 152.4 173.99)
@@ -7542,6 +7808,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3aa6ef13-851b-49c9-8c64-be0f401cbec8")
+	)
+	(junction
+		(at 48.26 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b1a40bb-afff-48a6-a3bb-e86307dd0582")
 	)
 	(junction
 		(at 251.46 66.04)
@@ -7758,6 +8030,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69046238-de9d-4cca-a3b4-fea8239d4277")
+	)
+	(junction
+		(at 35.56 312.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6934b32e-d605-4e00-b448-3ef88372599f")
 	)
 	(junction
 		(at 58.42 368.3)
@@ -7994,6 +8272,12 @@
 		(uuid "9fcf5829-2912-4c1a-bf12-7bffcd37eb0d")
 	)
 	(junction
+		(at 48.26 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9fe8cbce-b6e9-42c1-90f5-834d75ff0af7")
+	)
+	(junction
 		(at 132.08 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8024,12 +8308,6 @@
 		(uuid "a4fe6e21-5979-4d36-a82b-a32fb1d7dba8")
 	)
 	(junction
-		(at 48.26 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a80750ad-2c5e-43c3-8232-c880ba2dbf79")
-	)
-	(junction
 		(at 132.08 170.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8040,12 +8318,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8f2a125-0660-4e72-b24f-9925e375d767")
-	)
-	(junction
-		(at 48.26 316.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a949d9de-ac17-42cb-8e62-3ce84f4b66f2")
 	)
 	(junction
 		(at 48.26 218.44)
@@ -8096,12 +8368,6 @@
 		(uuid "b19f5089-840c-4982-9ce9-09690d276f67")
 	)
 	(junction
-		(at 38.1 321.31)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b3110d90-75e3-49b8-a0e0-8d18d215df6d")
-	)
-	(junction
 		(at 19.05 337.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8148,6 +8414,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be84d51b-786a-4bb1-90e2-037c116c434a")
+	)
+	(junction
+		(at 35.56 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0c07932-d3f6-4a0b-9677-89007e12c18d")
 	)
 	(junction
 		(at 77.47 294.64)
@@ -8216,6 +8488,12 @@
 		(uuid "d0fc75df-d770-42ec-bf83-ee6cb5c93f9f")
 	)
 	(junction
+		(at 35.56 321.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d1994f88-7195-4df3-9229-5b3855acac25")
+	)
+	(junction
 		(at 222.25 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8280,12 +8558,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e165038d-a3a3-441b-9ad8-d5f98d2ad878")
-	)
-	(junction
-		(at 38.1 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e25195fd-b350-4ce3-bd75-01fce26fceda")
 	)
 	(junction
 		(at 19.05 116.84)
@@ -8463,16 +8735,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 148.59) (xy 50.8 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0097a5b4-dbe0-4e33-b36f-371ae563a489")
-	)
-	(wire
-		(pts
 			(xy 162.56 43.18) (xy 162.56 35.56)
 		)
 		(stroke
@@ -8580,16 +8842,6 @@
 			(type default)
 		)
 		(uuid "04e2b692-fe49-4740-9640-2b185f27c407")
-	)
-	(wire
-		(pts
-			(xy 38.1 312.42) (xy 38.1 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05ee6eb8-0938-4172-9e6b-29119fb1f94c")
 	)
 	(wire
 		(pts
@@ -8903,6 +9155,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 312.42) (xy 48.26 312.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ab789e2-4905-4eea-9408-e5a33d84986d")
+	)
+	(wire
+		(pts
 			(xy 297.18 93.98) (xy 297.18 99.06)
 		)
 		(stroke
@@ -8963,6 +9225,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 312.42) (xy 48.26 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1222b4-9411-4978-ad92-fdbcd9914006")
+	)
+	(wire
+		(pts
 			(xy 152.4 173.99) (xy 152.4 166.37)
 		)
 		(stroke
@@ -8993,7 +9265,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 316.23) (xy 48.26 340.36)
+			(xy 48.26 304.8) (xy 48.26 312.42)
 		)
 		(stroke
 			(width 0)
@@ -9070,6 +9342,16 @@
 			(type default)
 		)
 		(uuid "2684f688-ebdc-410c-b4e8-5fd59a576b1e")
+	)
+	(wire
+		(pts
+			(xy 35.56 321.31) (xy 35.56 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2688cf26-42a6-4a81-8e81-ea8b1d3b5da9")
 	)
 	(wire
 		(pts
@@ -9213,6 +9495,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 132.08) (xy 48.26 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e175f3-207b-4ad2-af7c-f5f3a12f8131")
+	)
+	(wire
+		(pts
 			(xy 66.04 170.18) (xy 68.58 170.18)
 		)
 		(stroke
@@ -9310,6 +9602,16 @@
 			(type default)
 		)
 		(uuid "39b93b84-d189-49d8-851e-92faa7464ab1")
+	)
+	(wire
+		(pts
+			(xy 35.56 312.42) (xy 35.56 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39db564f-d798-4ebb-8554-ddccb6897bd3")
 	)
 	(wire
 		(pts
@@ -9913,6 +10215,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 325.12) (xy 48.26 325.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c84437c-af83-4e28-8d4f-cfe9661a0b83")
+	)
+	(wire
+		(pts
 			(xy 213.36 63.5) (xy 222.25 63.5)
 		)
 		(stroke
@@ -10163,6 +10475,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 152.4) (xy 48.26 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a063c78-9d72-4a67-8950-edd9c410b245")
+	)
+	(wire
+		(pts
 			(xy 128.27 17.78) (xy 142.24 17.78)
 		)
 		(stroke
@@ -10210,6 +10532,16 @@
 			(type default)
 		)
 		(uuid "6bc97599-c9a8-407f-a087-cd6c33358fd3")
+	)
+	(wire
+		(pts
+			(xy 48.26 139.7) (xy 48.26 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c119c2f-ff42-4213-a0b1-5f1ac64b01bf")
 	)
 	(wire
 		(pts
@@ -10270,6 +10602,16 @@
 			(type default)
 		)
 		(uuid "70b6757b-63a2-4915-8097-b9021a231ea0")
+	)
+	(wire
+		(pts
+			(xy 25.4 321.31) (xy 35.56 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70c45608-e6d8-4621-aa81-11b07fa4e306")
 	)
 	(wire
 		(pts
@@ -10350,16 +10692,6 @@
 			(type default)
 		)
 		(uuid "738aca09-3d7e-499a-9bda-b6fbf190498e")
-	)
-	(wire
-		(pts
-			(xy 50.8 316.23) (xy 48.26 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74e5ad74-3243-4ec8-9348-9b49e18772f0")
 	)
 	(wire
 		(pts
@@ -10663,6 +10995,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 139.7) (xy 35.56 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "854d5773-5ac3-4eb4-91c5-9acdf0c146af")
+	)
+	(wire
+		(pts
 			(xy 193.04 153.67) (xy 193.04 158.75)
 		)
 		(stroke
@@ -10680,16 +11022,6 @@
 			(type default)
 		)
 		(uuid "8673f99d-2688-48ef-999a-1bdfea4b2081")
-	)
-	(wire
-		(pts
-			(xy 38.1 321.31) (xy 50.8 321.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86cd159e-5187-4da7-b826-9a09518ab72a")
 	)
 	(wire
 		(pts
@@ -10853,16 +11185,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 143.51) (xy 50.8 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "92baf257-6f84-4162-9950-a02cd901be88")
-	)
-	(wire
-		(pts
 			(xy 193.04 168.91) (xy 193.04 173.99)
 		)
 		(stroke
@@ -10950,16 +11272,6 @@
 			(type default)
 		)
 		(uuid "969ca472-3467-4e92-84e9-ae0e7c512f1c")
-	)
-	(wire
-		(pts
-			(xy 48.26 132.08) (xy 48.26 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9767d5e7-0098-4940-86a6-c8d707cd1783")
 	)
 	(wire
 		(pts
@@ -11113,6 +11425,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 139.7) (xy 48.26 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe4c39b-97cf-426f-b7f3-610124d79430")
+	)
+	(wire
+		(pts
 			(xy 46.99 33.02) (xy 48.26 33.02)
 		)
 		(stroke
@@ -11180,6 +11502,16 @@
 			(type default)
 		)
 		(uuid "a21d9867-bda8-4a35-a0fa-8fa522524eec")
+	)
+	(wire
+		(pts
+			(xy 45.72 152.4) (xy 48.26 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3b0b652-2a27-4cde-8b40-87c43cc91a8c")
 	)
 	(wire
 		(pts
@@ -11523,6 +11855,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 143.51) (xy 50.8 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8ed0058-eb3e-40ba-94e6-042c8a6d9f89")
+	)
+	(wire
+		(pts
 			(xy 66.04 83.82) (xy 68.58 83.82)
 		)
 		(stroke
@@ -11623,13 +11965,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 321.31) (xy 38.1 321.31)
+			(xy 40.64 148.59) (xy 50.8 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bfa9b896-201b-4f3c-a9fb-217566d44798")
+		(uuid "bf407dea-7876-4bab-92fd-cca51377689f")
 	)
 	(wire
 		(pts
@@ -11913,6 +12255,16 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 321.31) (xy 50.8 321.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d37f4ee5-e804-4748-aaec-98b56e95ac6b")
+	)
+	(wire
+		(pts
 			(xy 86.36 106.68) (xy 87.63 106.68)
 		)
 		(stroke
@@ -12013,13 +12365,13 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 148.59) (xy 38.1 148.59)
+			(xy 40.64 316.23) (xy 50.8 316.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dad023cc-d546-4de2-8d22-55a1bb679bc2")
+		(uuid "da8c79e2-b2fa-4be3-a876-197defcc0b99")
 	)
 	(wire
 		(pts
@@ -12173,6 +12525,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 148.59) (xy 35.56 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1549902-02f0-4fdd-a3cc-6ee4ec16d426")
+	)
+	(wire
+		(pts
 			(xy 213.36 157.48) (xy 214.63 157.48)
 		)
 		(stroke
@@ -12203,16 +12565,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 304.8) (xy 48.26 316.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e2572aaa-d1c6-4b5e-9833-c68fd04ce221")
-	)
-	(wire
-		(pts
 			(xy 80.01 200.66) (xy 82.55 200.66)
 		)
 		(stroke
@@ -12230,6 +12582,16 @@
 			(type default)
 		)
 		(uuid "e2e1763e-7844-45d5-bca1-745771618d53")
+	)
+	(wire
+		(pts
+			(xy 25.4 148.59) (xy 35.56 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e345b442-3bd1-494d-9af1-618338ca48fa")
 	)
 	(wire
 		(pts
@@ -12300,6 +12662,16 @@
 			(type default)
 		)
 		(uuid "e676b8ed-f92b-4dc3-aaac-2e52b2d60f45")
+	)
+	(wire
+		(pts
+			(xy 48.26 325.12) (xy 48.26 340.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f00566-8206-403c-aec0-3a2ec805d65e")
 	)
 	(wire
 		(pts
@@ -12453,16 +12825,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 148.59) (xy 48.26 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1fd4cbc-76ad-4f87-a932-e3d82ee85e8f")
-	)
-	(wire
-		(pts
 			(xy 25.4 38.1) (xy 36.83 38.1)
 		)
 		(stroke
@@ -12470,26 +12832,6 @@
 			(type default)
 		)
 		(uuid "f2a489fc-671b-4940-bb13-2a11215b6437")
-	)
-	(wire
-		(pts
-			(xy 38.1 143.51) (xy 38.1 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f444ad7f-b41b-4198-aed3-7a1e9d91b8c0")
-	)
-	(wire
-		(pts
-			(xy 38.1 139.7) (xy 38.1 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f46b8756-d808-4375-9346-a47c33460ace")
 	)
 	(wire
 		(pts
@@ -14562,7 +14904,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GLED"
 			(at 94.996 141.478 0)
 			(effects
 				(font
@@ -14580,7 +14922,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C965812.html?s_z=n_C965812"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2986041.html"
 			(at 96.52 137.16 0)
 			(effects
 				(font
@@ -14875,7 +15217,7 @@
 				)
 			)
 		)
-		(property "Value" "R150"
+		(property "Value" "R200"
 			(at 103.886 32.004 90)
 			(effects
 				(font
@@ -14892,7 +15234,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2933534.html"
 			(at 104.14 27.94 0)
 			(effects
 				(font
@@ -15923,7 +16265,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "YLED"
 			(at 94.996 32.258 0)
 			(effects
 				(font
@@ -15941,7 +16283,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C965812.html?s_z=n_C965812"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C965814.html"
 			(at 96.52 27.94 0)
 			(effects
 				(font
@@ -16138,7 +16480,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "YLED"
 			(at 94.996 291.338 0)
 			(effects
 				(font
@@ -16156,7 +16498,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C965812.html?s_z=n_C965812"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C965814.html"
 			(at 96.52 287.02 0)
 			(effects
 				(font
@@ -18605,7 +18947,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GLED"
 			(at 94.996 55.118 0)
 			(effects
 				(font
@@ -18623,7 +18965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C965812.html?s_z=n_C965812"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2986041.html"
 			(at 96.52 50.8 0)
 			(effects
 				(font
@@ -18683,7 +19025,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RLED"
 			(at 94.996 251.968 0)
 			(effects
 				(font
@@ -19031,7 +19373,7 @@
 	)
 	(symbol
 		(lib_id "Custom_connectors:Test_hook")
-		(at 38.1 312.42 270)
+		(at 35.56 312.42 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19039,16 +19381,16 @@
 		(dnp no)
 		(uuid "382534a0-39f4-44ad-87c2-fc28529d29ee")
 		(property "Reference" "TP11"
-			(at 38.354 308.61 90)
+			(at 30.988 308.61 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TestHook"
-			(at 31.75 302.006 0)
+			(at 41.91 322.834 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19057,7 +19399,7 @@
 			)
 		)
 		(property "Footprint" "Test Hook:ronghe RH-5015"
-			(at 29.972 307.086 0)
+			(at 43.688 317.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19066,7 +19408,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/C5199798.html?s_z=n_C5199798"
-			(at 29.972 307.086 0)
+			(at 43.688 317.754 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19075,13 +19417,13 @@
 			)
 		)
 		(property "Description" "RB2C"
-			(at 38.354 310.388 90)
+			(at 30.988 310.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -19113,7 +19455,7 @@
 				)
 			)
 		)
-		(property "Value" "R150"
+		(property "Value" "R200"
 			(at 313.436 120.904 90)
 			(effects
 				(font
@@ -19130,7 +19472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2933534.html"
 			(at 313.69 116.84 0)
 			(effects
 				(font
@@ -19229,6 +19571,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 40.64 152.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a33afb8-c867-4df6-86dc-f7edb9d8dcc2")
+		(property "Reference" "JP2"
+			(at 38.354 154.686 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 41.9099 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Test Hook:SolderedJumper 3P"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-T2C"
+			(at 38.1 156.464 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 132 132 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "4b54a2d9-a6af-4e0e-a1f6-96470b8aa13b")
+		)
+		(pin "2"
+			(uuid "6a643315-3502-4988-90b1-15f8a0ec6fd2")
+		)
+		(pin "3"
+			(uuid "56480e1a-09dc-4a5c-8b65-2474d576bbeb")
+		)
+		(instances
+			(project "BSPD v4 Rev 5"
+				(path "/2adce50a-518b-4fe5-b442-5f6e663f213c"
+					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 25.4 238.76 0)
 		(unit 1)
@@ -19315,8 +19731,8 @@
 				)
 			)
 		)
-		(property "Value" "R150"
-			(at 103.886 141.224 90)
+		(property "Value" "R82"
+			(at 103.378 141.224 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19332,7 +19748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2907287.html"
 			(at 104.14 137.16 0)
 			(effects
 				(font
@@ -19514,7 +19930,7 @@
 				)
 			)
 		)
-		(property "Value" "R150"
+		(property "Value" "R200"
 			(at 103.886 251.714 90)
 			(effects
 				(font
@@ -19531,7 +19947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2933534.html"
 			(at 104.14 247.65 0)
 			(effects
 				(font
@@ -19931,6 +20347,80 @@
 			(project "BSPD_v4 rev 2"
 				(path "/2adce50a-518b-4fe5-b442-5f6e663f213c"
 					(reference "R61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 40.64 312.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eee4832-a1ac-4630-a4ce-58a0d1567e21")
+		(property "Reference" "JP3"
+			(at 38.1 308.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 39.3701 309.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Test Hook:SolderedJumper 3P"
+			(at 40.64 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "+B2C"
+			(at 37.846 310.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 132 132 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "9392019b-530f-431c-9314-9c00f0a0567a")
+		)
+		(pin "2"
+			(uuid "a5cdbb0d-edd4-4df1-bbb7-9455e9186f5c")
+		)
+		(pin "3"
+			(uuid "f1302219-ce27-4e67-89ac-2047d138f194")
+		)
+		(instances
+			(project "BSPD v4 Rev 5"
+				(path "/2adce50a-518b-4fe5-b442-5f6e663f213c"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -20953,7 +21443,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RLED"
 			(at 94.996 338.328 0)
 			(effects
 				(font
@@ -21305,8 +21795,8 @@
 				)
 			)
 		)
-		(property "Value" "R150"
-			(at 103.886 227.584 90)
+		(property "Value" "R82"
+			(at 103.378 227.584 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21322,7 +21812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2907287.html"
 			(at 104.14 223.52 0)
 			(effects
 				(font
@@ -22127,7 +22617,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "YLED"
 			(at 94.996 118.618 0)
 			(effects
 				(font
@@ -22145,7 +22635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C965812.html?s_z=n_C965812"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C965814.html"
 			(at 96.52 114.3 0)
 			(effects
 				(font
@@ -22664,6 +23154,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 40.64 325.12 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "595fdab2-b8f9-4f15-92cb-29cb784ea23f")
+		(property "Reference" "JP4"
+			(at 38.354 327.406 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 41.9099 327.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Test Hook:SolderedJumper 3P"
+			(at 40.64 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-B2C"
+			(at 38.1 329.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 132 132 1)
+				)
+				(justify right)
+			)
+		)
+		(pin "1"
+			(uuid "c611922b-3314-4655-80f2-198c4912f589")
+		)
+		(pin "2"
+			(uuid "768b13b5-b909-4cc0-b529-57b591cc05e9")
+		)
+		(pin "3"
+			(uuid "233e36e9-96c4-45b1-9d59-9013edb35be0")
+		)
+		(instances
+			(project "BSPD v4 Rev 5"
+				(path "/2adce50a-518b-4fe5-b442-5f6e663f213c"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC04")
 		(at 160.02 156.21 0)
 		(unit 4)
@@ -23153,7 +23717,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RLED"
 			(at 94.996 79.248 0)
 			(effects
 				(font
@@ -23230,8 +23794,8 @@
 				)
 			)
 		)
-		(property "Value" "R150"
-			(at 103.886 313.944 90)
+		(property "Value" "R82"
+			(at 103.378 313.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23247,7 +23811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2907287.html"
 			(at 104.14 309.88 0)
 			(effects
 				(font
@@ -24554,6 +25118,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_3_Open")
+		(at 40.64 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "654c89e1-5f90-4f0e-8298-39f49e35a53a")
+		(property "Reference" "JP1"
+			(at 38.1 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SolderJumper_3_Open"
+			(at 39.3701 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Test Hook:SolderedJumper 3P"
+			(at 40.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "+T2C"
+			(at 37.846 137.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(color 0 132 132 1)
+				)
+				(justify left)
+			)
+		)
+		(pin "1"
+			(uuid "145a65b8-38e0-46bb-8c5f-6308a80990fc")
+		)
+		(pin "2"
+			(uuid "21005fd8-cb79-4a1c-93e3-1e3e0d53d1ca")
+		)
+		(pin "3"
+			(uuid "dd0a1c83-7dc7-4d89-a6d1-dbf47fb407d8")
+		)
+		(instances
+			(project ""
+				(path "/2adce50a-518b-4fe5-b442-5f6e663f213c"
+					(reference "JP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 238.76 218.44 0)
 		(unit 1)
@@ -24571,7 +25209,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RLED"
 			(at 237.236 222.758 0)
 			(effects
 				(font
@@ -24716,7 +25354,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RLED"
 			(at 304.546 121.158 0)
 			(effects
 				(font
@@ -24793,8 +25431,8 @@
 				)
 			)
 		)
-		(property "Value" "R150"
-			(at 103.886 54.864 90)
+		(property "Value" "R82"
+			(at 103.378 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24810,7 +25448,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2907287.html"
 			(at 104.14 50.8 0)
 			(effects
 				(font
@@ -24860,7 +25498,7 @@
 				)
 			)
 		)
-		(property "Value" "R150"
+		(property "Value" "R200"
 			(at 246.126 222.504 90)
 			(effects
 				(font
@@ -24877,7 +25515,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2933534.html"
 			(at 246.38 218.44 0)
 			(effects
 				(font
@@ -25132,7 +25770,7 @@
 				)
 			)
 		)
-		(property "Value" "R150"
+		(property "Value" "R200"
 			(at 103.886 204.724 90)
 			(effects
 				(font
@@ -25149,7 +25787,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2933534.html"
 			(at 104.14 200.66 0)
 			(effects
 				(font
@@ -25482,7 +26120,7 @@
 				)
 			)
 		)
-		(property "Value" "R150"
+		(property "Value" "R200"
 			(at 103.886 291.084 90)
 			(effects
 				(font
@@ -25499,7 +26137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2933534.html"
 			(at 104.14 287.02 0)
 			(effects
 				(font
@@ -28409,7 +29047,7 @@
 	)
 	(symbol
 		(lib_id "Custom_connectors:Test_hook")
-		(at 38.1 139.7 270)
+		(at 35.56 139.7 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -28417,16 +29055,16 @@
 		(dnp no)
 		(uuid "966198c6-97a3-4ef8-8b05-07819a3d8704")
 		(property "Reference" "TP7"
-			(at 38.354 135.89 90)
+			(at 30.988 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "TestHook"
-			(at 31.75 129.286 0)
+			(at 41.91 150.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28435,7 +29073,7 @@
 			)
 		)
 		(property "Footprint" "Test Hook:ronghe RH-5015"
-			(at 29.972 134.366 0)
+			(at 43.688 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28444,7 +29082,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/C5199798.html?s_z=n_C5199798"
-			(at 29.972 134.366 0)
+			(at 43.688 145.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -28453,13 +29091,13 @@
 			)
 		)
 		(property "Description" "RT2C"
-			(at 38.354 137.668 90)
+			(at 30.988 137.668 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(color 0 132 132 1)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(pin "1"
@@ -29707,7 +30345,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GLED"
 			(at 94.996 314.198 0)
 			(effects
 				(font
@@ -29725,7 +30363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C965812.html?s_z=n_C965812"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2986041.html"
 			(at 96.52 309.88 0)
 			(effects
 				(font
@@ -30059,7 +30697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "RLED"
 			(at 94.996 165.608 0)
 			(effects
 				(font
@@ -31460,7 +32098,7 @@
 				)
 			)
 		)
-		(property "Value" "R150"
+		(property "Value" "R200"
 			(at 103.886 118.364 90)
 			(effects
 				(font
@@ -31477,7 +32115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2933534.html"
 			(at 104.14 114.3 0)
 			(effects
 				(font
@@ -31777,7 +32415,7 @@
 				)
 			)
 		)
-		(property "Value" "R150"
+		(property "Value" "R200"
 			(at 103.886 78.994 90)
 			(effects
 				(font
@@ -31794,7 +32432,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2933534.html"
 			(at 104.14 74.93 0)
 			(effects
 				(font
@@ -32919,7 +33557,7 @@
 				)
 			)
 		)
-		(property "Value" "R150"
+		(property "Value" "R200"
 			(at 103.886 338.074 90)
 			(effects
 				(font
@@ -32936,7 +33574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2933534.html"
 			(at 104.14 334.01 0)
 			(effects
 				(font
@@ -33051,7 +33689,7 @@
 				)
 			)
 		)
-		(property "Value" "R150"
+		(property "Value" "R200"
 			(at 103.886 165.354 90)
 			(effects
 				(font
@@ -33068,7 +33706,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C17471.html?s_z=n_C17471"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2933534.html"
 			(at 104.14 161.29 0)
 			(effects
 				(font
@@ -34559,7 +35197,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "GLED"
 			(at 94.996 227.838 0)
 			(effects
 				(font
@@ -34577,7 +35215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C965812.html?s_z=n_C965812"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2986041.html"
 			(at 96.52 223.52 0)
 			(effects
 				(font
@@ -35422,7 +36060,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "YLED"
 			(at 94.996 204.978 0)
 			(effects
 				(font
@@ -35440,7 +36078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C965812.html?s_z=n_C965812"
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C965814.html"
 			(at 96.52 200.66 0)
 			(effects
 				(font
