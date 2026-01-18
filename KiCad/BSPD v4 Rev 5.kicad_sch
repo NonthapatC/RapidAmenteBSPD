@@ -6803,7 +6803,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6839,7 +6839,7 @@
 							)
 						)
 					)
-					(number "3"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -13257,7 +13257,7 @@
 	)
 	(global_label "Relay_NO"
 		(shape input)
-		(at 137.16 203.2 90)
+		(at 134.62 203.2 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13267,7 +13267,7 @@
 		)
 		(uuid "4b69477d-e370-4a7c-bf6d-1d632147d16d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 191.4458 90)
+			(at 134.62 191.4458 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13411,7 +13411,7 @@
 	)
 	(global_label "Relay_NC"
 		(shape input)
-		(at 134.62 203.2 90)
+		(at 137.16 203.2 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13421,7 +13421,7 @@
 		)
 		(uuid "76a815c1-c8c1-4e24-bffd-800792dff9ba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 191.5063 90)
+			(at 137.16 191.5063 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32252,7 +32252,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C5355536.html"
+		(property "Datasheet" "https://lcsc.com/product-detail/Automotive-Relays_PANASONIC-ACNM1112_C5355536.html"
 			(at 209.55 189.23 0)
 			(effects
 				(font
